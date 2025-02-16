@@ -7,7 +7,6 @@ class Product {
   bool enable;
   Product({
     required this.name, 
-    
     this.enable = true,
   });
 }
