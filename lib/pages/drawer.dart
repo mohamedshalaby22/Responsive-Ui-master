@@ -33,7 +33,7 @@ List<ButtonsInfo> buttonNames = [
 class _DrawerPageState extends State<DrawerPage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
+    return SafeArea( 
       child: Drawer(
         backgroundColor: purpleDark,
         child: SingleChildScrollView(
