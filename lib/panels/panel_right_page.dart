@@ -6,7 +6,8 @@ class Product {
   String name;
   bool enable;
   Product({
-    required this.name,
+    required this.name, 
+    
     this.enable = true,
   });
 }
